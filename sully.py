@@ -33,10 +33,10 @@ class Cat(Pet):
         print(f"{self.name} says: Meow Meow Nigga!")
 
 wael = Human("Wael", 23)
-Sully = Dog("Suleyman", "Turkish Pitbull")
+sully = Dog("Suleyman", "Turkish Pitbull")
 silver = Cat("Silver", "Sølv")
 
 # Using object methods
 wael.speak()
-Sully.speak()
+sully.speak()
 silver.speak()
